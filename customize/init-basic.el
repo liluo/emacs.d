@@ -24,4 +24,7 @@
 ;; Enable ido mode
 (ido-mode t)
 
+;; Set keys
+(global-set-key (kbd "M-c") `comment-or-uncomment-region)
+
 (provide 'init-basic)
