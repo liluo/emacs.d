@@ -2,6 +2,6 @@
 
 (require 'init-basic)
 (require 'init-elpa)
-(require 'init-package-list)
+(require 'init-auto-complete)
 
 (provide 'init)
