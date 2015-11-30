@@ -2,6 +2,7 @@
 
 ;; Disable make-backup-files & auto-save-files
 (setq make-backup-files nil
+      auto-save-default nil
       delete-auto-save-files t)
 
 ;; Disable menu-bar
