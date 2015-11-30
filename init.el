@@ -4,5 +4,6 @@
 (require 'init-elpa)
 (require 'init-auto-complete)
 (require 'init-ag)
+(require 'init-moe-theme)
 
 (provide 'init)
