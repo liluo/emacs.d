@@ -3,5 +3,6 @@
 (require 'init-basic)
 (require 'init-elpa)
 (require 'init-auto-complete)
+(require 'init-ag)
 
 (provide 'init)
