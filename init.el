@@ -11,4 +11,7 @@
 ;; Git
 (require 'init-magit)
 
+;; Mode
+(require 'init-markdown)
+
 (provide 'init)
