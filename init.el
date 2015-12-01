@@ -4,6 +4,11 @@
 (require 'init-elpa)
 (require 'init-auto-complete)
 (require 'init-ag)
+
+;; Theme
 (require 'init-moe-theme)
+
+;; Git
+(require 'init-magit)
 
 (provide 'init)
