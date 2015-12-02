@@ -17,4 +17,7 @@
 ;; Hooks
 (require 'init-hooks)
 
+;; Key bindings
+(require 'init-bindings)
+
 (provide 'init)
