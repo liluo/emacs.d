@@ -4,6 +4,7 @@
 (require 'init-elpa)
 (require 'init-auto-complete)
 (require 'init-ag)
+(require 'init-smartparens)
 
 ;; Theme
 (require 'init-moe-theme)
