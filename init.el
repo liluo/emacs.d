@@ -5,6 +5,7 @@
 (require 'init-auto-complete)
 (require 'init-ag)
 (require 'init-smartparens)
+(require 'init-git-link)
 
 ;; Theme
 (require 'init-moe-theme)
