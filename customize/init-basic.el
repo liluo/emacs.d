@@ -19,6 +19,7 @@
       display-time-24hr-format t)
 (display-time)
 
+
 ;; Asking given format
 (fset 'yes-or-no-p 'y-or-n-p)
 
@@ -27,5 +28,8 @@
 
 ;; Set keys
 (global-set-key (kbd "M-c") `comment-or-uncomment-region)
+
+;; Misc
+(setq-default indent-tabs-mode nil)
 
 (provide 'init-basic)
