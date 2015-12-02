@@ -14,4 +14,7 @@
 ;; Mode
 (require 'init-markdown)
 
+;; Hooks
+(require 'init-hooks)
+
 (provide 'init)
