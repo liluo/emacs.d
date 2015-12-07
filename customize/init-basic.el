@@ -1,17 +1,13 @@
 ;;; Basic Configuration
 
 ;; Disable make-backup-files & auto-save-files
+
 (setq make-backup-files nil
       auto-save-default nil
       delete-auto-save-files t)
 
 ;; Disable menu-bar
 (menu-bar-mode -1)
-
-;; Display line-number & column-number
-(global-linum-mode t)
-(setq linum-format "%d "
-      column-number-mode t)
 
 ;; Display time
 (display-time-mode t)
