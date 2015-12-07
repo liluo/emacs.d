@@ -6,6 +6,7 @@
 (require 'init-ag)
 (require 'init-smartparens)
 (require 'init-git-link)
+(require 'init-yasnippet)
 
 ;; Theme
 (require 'init-moe-theme)
