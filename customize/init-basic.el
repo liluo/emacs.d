@@ -17,6 +17,8 @@
       display-time-24hr-format t)
 (display-time)
 
+;; Full screen
+(toggle-frame-maximized)
 
 ;; Asking given format
 (fset 'yes-or-no-p 'y-or-n-p)
