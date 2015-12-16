@@ -6,8 +6,9 @@
       auto-save-default nil
       delete-auto-save-files t)
 
-;; Disable menu-bar
+;; Disable menu-bar & tool-bar
 (menu-bar-mode -1)
+(tool-bar-mode -1)
 
 ;; Display time
 (display-time-mode t)
