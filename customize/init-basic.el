@@ -29,4 +29,11 @@
 ;; Misc
 (setq-default indent-tabs-mode nil)
 
+
+
+;; Allow access from emacsclient
+(require 'server)
+(unless (server-running-p)
+  (server-start))
+
 (provide 'init-basic)
