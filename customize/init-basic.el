@@ -17,6 +17,9 @@
       display-time-24hr-format t)
 (display-time)
 
+;; Highlight current line
+(global-hl-line-mode 1)
+
 ;; Full screen
 (toggle-frame-maximized)
 
