@@ -17,6 +17,9 @@
       display-time-24hr-format t)
 (display-time)
 
+;; Display image
+(auto-image-file-mode t)
+
 ;; Highlight current line
 (global-hl-line-mode 1)
 
@@ -31,8 +34,6 @@
 
 ;; Misc
 (setq-default indent-tabs-mode nil)
-
-
 
 ;; Allow access from emacsclient
 (require 'server)
