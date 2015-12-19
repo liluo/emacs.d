@@ -11,6 +11,9 @@
 (tool-bar-mode -1)
 (scroll-bar-mode -1)
 
+;; Disable startup message
+(setq inhibit-startup-message t)
+
 ;; Display time
 (display-time-mode t)
 (setq display-time-day-and-date t
