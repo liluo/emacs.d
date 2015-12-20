@@ -19,6 +19,7 @@
 (require 'init-nyan)
 (require 'init-helm)
 (require 'init-fiplr)
+(require 'init-projectile)
 
 ;; Hooks
 (require 'init-hooks)
