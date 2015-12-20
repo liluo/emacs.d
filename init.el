@@ -22,6 +22,7 @@
 (require 'init-projectile)
 (require 'init-fix-ido)
 (require 'init-expand-region)
+(require 'init-multiple-cursors)
 
 ;; Hooks
 (require 'init-hooks)
