@@ -23,6 +23,7 @@
 (require 'init-fix-ido)
 (require 'init-expand-region)
 (require 'init-multiple-cursors)
+(require 'init-engine)
 
 ;; Hooks
 (require 'init-hooks)
