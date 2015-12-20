@@ -23,4 +23,20 @@
 (setq helm-buffers-fuzzy-matching t
       helm-recentf-fuzzy-match    t)
 
+;; helm-semantic-or-imenu
+(setq helm-semantic-fuzzy-match t
+      helm-imenu-fuzzy-match    t)
+
+;; helm-locate
+(setq helm-locate-fuzzy-match t)
+
+;; helm-occur
+(global-set-key (kbd "C-c h o") 'helm-occur)
+
+;; helm-apropos
+(setq helm-apropos-fuzzy-match t)
+
+;; helm-lisp-completion-at-point
+(setq helm-lisp-fuzzy-completion t)
+
 (provide 'init-helm)
