@@ -21,6 +21,7 @@
 (require 'init-fiplr)
 (require 'init-projectile)
 (require 'init-fix-ido)
+(require 'init-expand-region)
 
 ;; Hooks
 (require 'init-hooks)
