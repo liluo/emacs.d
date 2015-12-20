@@ -20,6 +20,7 @@
 (require 'init-helm)
 (require 'init-fiplr)
 (require 'init-projectile)
+(require 'init-fix-ido)
 
 ;; Hooks
 (require 'init-hooks)

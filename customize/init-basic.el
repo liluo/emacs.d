@@ -34,6 +34,7 @@
 
 ;; Enable ido mode
 (ido-mode t)
+(ido-everywhere t)
 
 ;; Misc
 (setq-default indent-tabs-mode nil)
