@@ -17,6 +17,7 @@
 ;; Mode
 (require 'init-markdown)
 (require 'init-nyan)
+(require 'init-helm)
 
 ;; Hooks
 (require 'init-hooks)
